@@ -1,3 +1,7 @@
+ALTER TABLE donantes
+ADD COLUMN apellidos VARCHAR(100) NOT NULL;
+
+
 -- ----------------------------------------------------------
 -- Tabla: SESSIONS
 -- Fecha: 16/02/2026 11:26
