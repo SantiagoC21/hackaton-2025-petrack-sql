@@ -82,7 +82,8 @@ BEGIN
             'donante_id', v_donante_id,
             'email', v_email,
             'nombre', v_name,
-            'rol', 'donante'
+            'rol', 'donante',
+            'email_verification_code', v_email_verification_code 
         )
     );
 END;

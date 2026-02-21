@@ -77,7 +77,8 @@ BEGIN
             'refugio_id', v_refugios_id,
             'email', v_email,
             'nombre', v_nombre,
-            'rol', 'refugio'
+            'rol', 'refugio',
+            'email_verification_code', v_email_verification_code 
         )
     );
 END;
